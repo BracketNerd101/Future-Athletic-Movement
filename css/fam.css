@@ -421,6 +421,7 @@ body {
 	color: white;
 	border-style: solid 2px;
     margin-bottom: 3rem;
+    margin-left: 3rem;
 }
 
 #front-button:hover {
@@ -517,8 +518,7 @@ body {
 	background-color: transparent;
 	color: white;
 	border-style: solid 2px;
-	margin-left: 3rem;
-	margin-top: 2rem
+    margin-bottom: 3rem;
 }
 
 #front-button-soccer:hover {
@@ -529,13 +529,13 @@ body {
 .soccer-runner {
 	background-color: grey;
 	color: white;
-	height: 340px;
+	height: 35rem;
 }
 
 .soccer {
 	background-image: url(../img/rugby.jpg);
 	background-size: cover;
-	height: 340px;
+	height: 35rem;
 }
 
 #future-runner {}
