@@ -15,6 +15,8 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- fam css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/aniimate.CSS">
+    <link rel="stylesheet" href="css/animate.min.CSS">
     <link rel="stylesheet" type="text/css" href="css/fam.css">
 <!--    Fam css-->
 <!--   fam about css-->
@@ -24,7 +26,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- This is how you would link your custom stylesheet -->
+    <!-- This is how you would link your custom stylesheet
+    <section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"></section>
+  <section class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10"></section> -->
 
 
     <title>About Future Athletics Movement</title>
@@ -82,11 +86,11 @@
                     <div class="jumbotron jumbotron-fluid shoe-spot">
                         <div class="container">
                            <div class="col-sm-12 col-md-12 col-lg-12">
-                            <h1 class="display-3 shoe-walker"><span class="shoe-walkers">Future Athletics Movement</span></h1></div>
-                            <p class="lead sub-head"> Our Mission. Our Passion.</p>
+                            <h1 class="display-3 shoe-walker wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"><span class="shoe-walkers">Future Athletics Movement</span></h1></div>
+                            <p class="lead sub-head wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s"> Our Mission. Our Passion.</p>
                             <div class="row">
                                <div class="container-fluid">
-                                   <div class="col-sm-12 col-md-12 col-lg-12">
+                                   <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
                                         <ul class="about-list">
                                             <li class="lead">Create athletic leagues for emerging populations.</li>
                                             <li class="lead"> Developing programs and funding for less popular sports.</li>
@@ -102,10 +106,10 @@
             <!-- about-runner ends here ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
             <section id="nike-shoe">
                 <div class="row">
-                    <div class="nike-soccer col-sm-12 col-md-6 col-lg-6"><img src="" alt="">
+                    <div class="nike-soccer col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.8s"><img src="" alt="">
                     </div>
 
-                    <div class="donate-info col-sm-12 col-md-6 col-lg-6">
+                    <div class="donate-info col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-offset="40" data-wow-delay="1.8s">
                         <h3 class="donate-head">
                             Support your league.
                         </h3>
@@ -121,7 +125,7 @@
 
             <section id="nike-biker">
                 <div class="row">
-                    <div class="info-content col-sm-12 col-md-6 col-lg-6">
+                    <div class="info-content col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-offset="70" data-wow-delay="1s">
                         <h3 class="donate-head">
                             Create your Own League
                         </h3>
@@ -130,14 +134,14 @@
                         </p>
                         <button type="button" href="#" class="btn btn-default btn-lg btn-outline-secondary btn-spaces" id="front-button">Learn More</button>
                     </div>
-                    <div class="biker col-sm-12 col-md-6 col-lg-6">
+                    <div class="biker col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-offset="70" data-wow-delay="1s">
                     </div>
                 </div>
             </section>
             <!-- nike-biker ends here ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
             <section id="contact-form">
                 <div class="container">
-                    <form class="col-md-12 well">
+                    <form class="col-md-12 well wow fadeInUp" data-wow-duration="1.4s" data-wow-offset="90" data-wow-delay="1.2s">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -180,7 +184,7 @@
             <!-- contact form ends here ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <footer>
-                <div class="footer" id="footer">
+                <div class="footer wow fadeInUp" data-wow-duration="1.4s" data-wow-offset="90" data-wow-delay="1.2s"  id="footer">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
@@ -249,7 +253,7 @@
                 </div>
                 <!--/.footer-->
 
-                <div class="footer-bottom">
+                <div class="footer-bottom wow fadeInUp" data-wow-duration="1.4s" data-wow-offset="10" data-wow-delay="1.2s">
                     <div class="container">
                         <p class="pull-left"> Copyright © Footer 2017. All right reserved. </p>
                         <div class="pull-right">
@@ -270,6 +274,10 @@
             <script src="js/bootstrap.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="js/nav-spice.js"></script>
+            <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 </body>
 
